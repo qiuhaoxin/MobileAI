@@ -1,0 +1,26 @@
+.wrapper{
+	padding-left:60px;flex-direction:column;margin-top:80px;
+	&.ai-at-show{
+	    display:flex;
+	}
+	&.ai-at-hide{
+	   display:none;
+	}
+	& .tipMsg{
+	   font-size:40px;margin-top:56px;font-family: PingFangSC-Regular;font-size: 32px;color: #333;line-height: 34px;position:relative;margin-bottom:22px;
+	   &:after{
+	      content:'';position:absolute;height:1px;background:#E5E5E5;left:0;right:60px;bottom:-22px;
+	   }
+	}
+	& .title{
+	   font-family: PingFangSC-Regular;font-size: 48px;color: #333;line-height: 48px;
+	}
+	&>ul{
+	   list-style:none;margin-top:4px;
+	   font-family: PingFangSC-Regular;font-size: 26px;color: #999;line-height: 24px;
+	   & > li{
+	      padding-top:20px;
+	      padding-bottom:6px;
+	   }
+	}
+}

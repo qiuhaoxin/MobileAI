@@ -1,0 +1,40 @@
+.ai-dialog-wrapper{
+  margin-bottom:41px;
+  & .ai-dialog{
+  display:flex;box-shadow: 0 2px 8px 0 #D6E2EF;border-radius: 10px;
+  & .inner{
+      padding:24px 24px 0 24px;font-family: PingFangSC-Regular;font-size: 32px;color: #666;line-height:44px;width:100%;position:relative;color:#999;
+        & .header{
+          position:relative;padding-bottom:24.2px;
+          &:before{
+            content:'';position:absolute;left:0px;right:0px;height:1px;background-color:#e5e5e5;bottom:0;
+          }
+        }
+        & .title_fill{
+            color:#333;
+        }
+        & .content{
+           padding-top:7.8px;padding-bottom:31px;
+        }
+        & .footer{
+           width:100%;display:flex;flex-direction:row;position:relative;align-items:center;justify-content:center;
+           &:before{
+              content:'';position:absolute;top:0;height:1px;background-color:#e5e5e5;left:-24px;right:-24px;transform:scaleY(.5);
+           }
+           & > div{
+               display:inline-flex;justify-content:center;align-items:center;padding:18px;
+               &.left{
+                  color:#666;
+               }
+               &.right{
+                  color:#4598F0;position:relative;
+                  &:before{
+                     content:'';position:absolute;left:0;top:8px;bottom:8px;width:1px;background-color:#e5e5e5;
+                  }
+               }
+           }
+        }
+  }
+
+}
+}

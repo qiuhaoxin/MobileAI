@@ -1,0 +1,27 @@
+.linkselectWrapper{
+	display:flex;width:100%;
+	& .list{
+       padding-left:64px;padding-top:72px;
+	   & > li{
+	      display:inline-flex;width:100%;padding-bottom:40px;
+          & img{
+             width:96px;height:96px;
+          }
+          & .content{
+             flex:1 1px 1px;justify-content:flex-start;align-items:center;display:inline-flex;padding-left:32px;font-family: PingFangSC-Regular;
+             font-size: 30px;color:#666;line-height: 44px;
+          }
+          & .rightArrow{
+              position:relative;width:80px;
+              &:before{
+                 content:'';position:absolute;border-left:12px solid #C0C7CE;border-top:12px solid transparent;border-bottom:12px solid transparent;top:50%;margin-top:-6px;
+              }
+              &:after{
+                 content:'';position:absolute;border-left:12px solid #fff;border-top:12px solid transparent;border-bottom:12px solid transparent;top:50%;margin-top:-6px;
+              }
+          }
+	   }
+
+
+	}
+}

@@ -1,0 +1,37 @@
+.tip-Wrapper{
+    background-color:#E7F3FF;position:fixed;left:0;right:0;z-index:200;top:0;
+    transition:transform .1s linear;
+    &.tip-show{
+        transform:translate(0,0%);
+    }
+    &.tip-hide{
+        transform:translate(0,-100%);
+    }
+	& .tipRow{
+		font-family: PingFangSC-Regular;
+		font-size: 22px;
+		color: #AFBDCE;
+		letter-spacing: -0.27px;
+		line-height: 22px;
+		padding-top:12px;
+	    padding-left:86px;
+	    padding-bottom:24px;
+    }
+	& .contentRow{
+	    padding-top:24px;
+		font-family: PingFangSC-Regular;
+		font-size: 26px;
+		color: #5D6E81;
+		letter-spacing: -0.31px;
+		line-height: 26px;
+	    padding-left:50px;
+	    display:inline-flex;
+
+	    & img{
+	       width:24px;height:26px;
+	    }
+	    & .content{
+	       padding-left:12px;
+	    }
+	}
+}

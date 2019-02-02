@@ -1,0 +1,41 @@
+body,div,ul,li{
+	padding:0;margin:0;-webkit-user-select:none;-ms-user-select:none;user-select: none;
+}
+img{
+	pointer-events:none
+}
+body{
+	background:#fff;
+}
+.wrapper{
+    display:flex;width:100%;flex-direction:column;
+    & .header{
+		& .rowTitle{
+	       font-family: PingFangSC-Regular;font-size: 40px;color: #333;line-height: 40px;
+	       margin-left:60px;margin-top:80px;margin-right:84px;
+		}
+		& .singleRecommends{
+			margin-left: 60px;
+			margin-right: 84px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+    }
+
+	& .recommend-demo{
+	   margin-left:60px;margin-right:84px;
+    }
+    & .footer{
+	   width:100%;justify-content:center;align-items:center;z-index:101;display:flex;position:fixed;left:0;right:0;bottom:0;z-index:110;
+	   background-color:#fff;flex:1;height:234px;
+	   & .ball1{
+           height:128px;width:128px;border-radius:50%;background:radial-gradient(circle at 64px 64px,#46e6ff,#3cbaff);
+	   }
+	   & .test{
+	      background-image: linear-gradient(-180deg, #5FE5FF 0%, rgba(93,78,255,0.56) 100%);width:300px;height:50px;
+	   }
+	   & img{
+	      height:122px;width:122px;
+	   }
+	}
+}
